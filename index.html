@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corazon-Mío</title>
+    <style>
+        body {
+            background-color: #0b1522;
+            margin: 0;
+            overflow: hidden;
+            cursor: pointer; /* Cambia el cursor para indicar que se puede hacer clic */
+        }
+        .container{
+            width: 500px;
+            height: 500px;
+            right: -550px;
+            bottom: 20px;
+            position: relative;
+        }
+        .amor{
+            position: absolute;
+            right: 245px;
+            bottom: 110px;
+            color: red;
+            font-size: 30px;
+        }
+        .primera{
+            position: absolute;
+            right: 268px;
+            bottom: 0;
+        }
+
+        p{
+            color: red;
+            box-shadow: -10px 15px 100px #f20044;
+        }
+        .segunda{
+            position: absolute;
+            right: 233px;
+            bottom: 13px;
+            }
+            .tercera{
+            position: absolute;
+            right: 213px;
+            bottom: 25px;
+            }
+            .cuarta{
+            position: absolute;
+            right: 200px;
+            bottom: 35px;
+            }            
+            .quinta{
+            position: absolute;
+            right: 185px;
+            bottom: 46px;
+            }            
+            .sexta{
+            position: absolute;
+            right: 170px;
+            bottom: 60px;
+            }            
+            .septima{
+            position: absolute;
+            right: 155px;
+            bottom: 75px;
+            }            
+            .octava{
+            position: absolute;
+            right: 140px;
+            bottom: 90px;
+            }            
+            .novena{
+            position: absolute;
+            right: 135px;
+            bottom: 105px;
+            }            
+            .decima{
+            position: absolute;
+            right: 118px;
+            bottom: 120px;
+            }            
+            .decima1{
+            position: absolute;
+            right: 103px;
+            bottom: 135px;
+            }            
+            .decima2{
+            position: absolute;
+            right: 96px;
+            bottom: 150px;
+            }            
+            .decima3{
+            position: absolute;
+            right: 90px;
+            bottom: 165px;
+            }
+            .decima4{
+            position: absolute;
+            right: 87px;
+            bottom: 178px;
+            }
+            .decima5{
+            position: absolute;
+            right: 100px;
+            bottom: 188px;
+            }
+            .decima6{
+            position: absolute;
+            right: 106px;
+            bottom: 201px;
+            }            
+            .decima7{
+            position: absolute;
+            right: 98px;
+            bottom: 215px;
+            }            
+            .decima8{
+            position: absolute;
+            right: 118px;
+            bottom: 227px;
+            }            
+            .decima9{
+            position: absolute;
+            right: 100px;
+            bottom: 242px;
+            }            
+            .vigesima{
+            position: absolute;
+            right: 110px;
+            bottom: 258px;
+            }            
+            .vigesima1{
+            position: absolute;
+            right: 172px;
+            bottom: 272px;
+            }            
+            .vigesima2{
+            position: absolute;
+            right: 210px;
+            bottom: 258px;
+            }            
+            .vigesima3{
+            position: absolute;
+            right: 218px;
+            bottom: 240px;
+            }            
+            .vigesima4{
+            position: absolute;
+            right: 230px;
+            bottom: 223px;
+            }            
+            .vigesima5{
+            position: absolute;
+            right: 242px;
+            bottom: 205px;
+            }            
+            .vigesima6{
+            position: absolute;
+            right: 252px;
+            bottom: 190px;
+            }
+        .primera-{
+            position: absolute;
+            right: 270px;
+            bottom: 0;
+        }
+        .segunda-{
+            position: absolute;
+            right: 312px;
+            bottom: 14px;
+            }
+            .tercera-{
+            position: absolute;
+            right: 322px;
+            bottom: 27px;
+            }
+            .cuarta-{
+            position: absolute;
+            right: 338px;
+            bottom: 37px;
+            }            
+            .quinta-{
+            position: absolute;
+            right: 350px;
+            bottom: 50px;
+            }            
+            .sexta-{
+            position: absolute;
+            right: 370px;
+            bottom: 63px;
+            }            
+            .septima-{
+            position: absolute;
+            right: 398px;
+            bottom: 78px;
+            }            
+            .octava-{
+            position: absolute;
+            right: 400px;
+            bottom: 90px;
+            }            
+            .novena-{
+            position: absolute;
+            right: 410px;
+            bottom: 105px;
+            }            
+            .decima-{
+            position: absolute;
+            right: 425px;
+            bottom: 120px;
+            }            
+            .decima-1{
+            position: absolute;
+            right: 430px;
+            bottom: 135px;
+            }            
+            .decima-2{
+            position: absolute;
+            right: 440px;
+            bottom: 150px;
+            }            
+            .decima-3{
+            position: absolute;
+            right: 438px;
+            bottom: 165px;
+            }
+            .decima-4{
+            position: absolute;
+            right: 450px;
+            bottom: 178px;
+            }
+            .decima-5{
+            position: absolute;
+            right: 445px;
+            bottom: 192px;
+            }
+            .decima-6{
+            position: absolute;
+            right: 448px;
+            bottom: 205px;
+            }            
+            .decima-7{
+            position: absolute;
+            right: 427px;
+            bottom: 220px;
+            }            
+            .decima-8{
+            position: absolute;
+            right: 426px;
+            bottom: 233px;
+            }            
+            .decima-9{
+            position: absolute;
+            right: 420px;
+            bottom: 250px;
+            }            
+            .vigesima-{
+            position: absolute;
+            right: 400px;
+            bottom: 265px;
+            }            
+            .vigesima-1{
+            position: absolute;
+            right: 370px;
+            bottom: 278px;
+            }            
+            .vigesima-2{
+            position: absolute;
+            right: 340px;
+            bottom: 265px;
+            }            
+            .vigesima-3{
+            position: absolute;
+            right: 320px;
+            bottom: 250px;
+            }            
+            .vigesima-4{
+            position: absolute;
+            right: 310px;
+            bottom: 235px;
+            }            
+            .vigesima-5{
+            position: absolute;
+            right: 300px;
+            bottom: 215px;
+            }            
+            .vigesima-6{
+            position: absolute;
+            right: 285px;
+            bottom: 200px;
+            }            
+            .vigesima-7{
+            position: absolute;
+            right: 287px;
+            bottom: 190px;
+            }
+
+            p{
+                animation: latiendo 0.6s linear infinite;
+            }
+            @keyframes latiendo{
+                0%{transform: scale(1.4);}
+                80%{transform: scale(2.);}
+            }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Reproductor de audio (sin autoplay inicial) -->
+    <audio id="musicaFondo" loop>
+        <source src="CANCION.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio HTML5.
+    </audio>
+    <div class="container">
+
+        <p class="amor">Andrea</p>
+
+        <p class="primera">AMOR</p>
+        <p class="segunda">VIDA</p>
+        <p class="tercera">Andrea</p>
+        <p class="cuarta">Andrea</p>
+        <p class="quinta">Andrea</p>
+        <p class="sexta">Andrea</p>
+        <p class="septima">Andrea</p>
+        <p class="octava">Andrea</p>
+        <p class="novena">amor</p>
+        <p class="decima">
+            eterno
+
+        </p>
+        <p class="decima1">Andrea</p>
+        <p class="decima2">Andrea</p>
+        <p class="decima3">Andrea</p>
+        <p class="decima4">Andrea</p>
+        <p class="decima5">vida</p>
+        <p class="decima6">TE</p>
+        <p class="decima7">deseo</p>
+        <p class="decima8">A</p>
+        <p class="decima9">Mi lado</p>
+        <p class="vigesima">Siempre</p>
+        <p class="vigesima1">Feliz</p>
+        <p class="vigesima2">cielo</p>
+        <p class="vigesima3">Feliz</p>
+        <p class="vigesima4">Feliz</p>
+        <p class="vigesima5">Feliz</p>
+        <p class="vigesima6">Feliz</p>
+
+        <p class="primera-">AMOR</p>
+        <p class="segunda-">VIDA</p>
+        <p class="tercera-">Andrea</p>
+        <p class="cuarta-">Andrea</p>
+        <p class="quinta-">Andrea</p>
+        <p class="sexta-">Andrea</p>
+        <p class="septima-">amor</p>
+        <p class="octava-">Andrea</p>
+        <p class="novena-">Andrea</p>
+        <p class="decima-">eterno</p>
+
+        <p class="decima-1">Andrea</p>
+        <p class="decima-2">Andrea</p>
+        <p class="decima-3">Andrea</p>
+        <p class="decima-4">vida</p>
+        <p class="decima-5">vida</p>
+        <p class="decima-6">TE</p>
+        <p class="decima-7">deseo</p>
+        <p class="decima-8">A</p>
+        <p class="decima-9">Mi lado</p>
+        <p class="vigesima-">Siempre</p>
+        <p class="vigesima-1">Feliz</p>
+        <p class="vigesima-2">Feliz</p>
+        <p class="vigesima-3">cielo</p>
+        <p class="vigesima-4">Feliz</p>
+        <p class="vigesima-5">Feliz</p>
+        <p class="vigesima-6">Feliz</p>
+        <p class="vigesima-7">se</p>
+
+
+
+
+
+    </div>
+        <script>
+        const musica = document.getElementById('musicaFondo');
+        let musicaReproducida = false;
+
+        // Función para activar la música
+        function activarMusica() {
+            if (!musicaReproducida) {
+                musica.play()
+                    .then(() => console.log("Música activada"))
+                    .catch(error => console.log("Error al reproducir:", error));
+                musicaReproducida = true;
+            }
+        }
+        // Activar al hacer clic en cualquier parte de la página
+        document.addEventListener('click', activarMusica);
+
+        // Opcional: Mostrar un mensaje suave para indicar que hay música
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log("Haz clic en la página para activar la música de fondo ♫");
+        });
+        </script>
+
+</body>
+
+</html>
